@@ -1,14 +1,16 @@
 // TODO: Include packages needed for this application
+// inports code
+const inquirer = require('inquirer');
+const fs = require('fs');
 
-const inquirer = require("inquirer");
-const fs = require("fs");
-const { SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION } = require("constants");
 
 
 
 
 // TODO: Create an array of questions for user input
-const questions = [
+const promptQuestions = (data) => {
+    return inquirer.prompt
+    ([
     // github username
     {
         type: 'input',
@@ -112,7 +114,7 @@ const questions = [
         type: 'checkbox',
         name: 'licensing',
         message: 'Choose a license for your project. (Required)',
-        choices: ['MIT', 'Mozilla-Public', 'None']
+        choices: ['MIT', 'Mozilla-Public', 'None'],
         validate: licensingInput => {
             if (licensingInput) {
                 return true;
@@ -128,13 +130,15 @@ const questions = [
         name: 'email',
         message: 'Please provide your email',
     }
-];
+]);
+};
 
+promptQuestions(data);
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+//function init() {}
 
 // Function call to initialize app
-init();
+//init();
