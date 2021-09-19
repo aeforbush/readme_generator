@@ -2,14 +2,14 @@
 // inports code
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 
 
 
 // TODO: Create an array of questions for user input
-const promptQuestions = () => {
-    return inquirer.prompt
+const promptQuestions = 
     ([
     // github username
     {
@@ -114,7 +114,7 @@ const promptQuestions = () => {
         type: 'checkbox',
         name: 'licensing',
         message: 'Choose a license for your project. (Required)',
-        choices: ['MIT', 'Mozilla-Public', 'None'],
+        choices: ['Apache', 'MIT', 'Mozilla-Public', 'None'],
         validate: licensingInput => {
             if (licensingInput) {
                 return true;
@@ -131,14 +131,26 @@ const promptQuestions = () => {
         message: 'Please provide your email',
     }
 ]);
-};
+
 
 promptQuestions();
 // TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeToFile(fileName, data, (err) => {
+        if (err);
+        throw err;
+        console.log("Success! Info transfered to README.");
+    });
+};
 
 // TODO: Create a function to initialize app
-//function init() {}
+function init() {
+    inquirer.prompt(promptQuestions)
+    .then(function (userInput) {
+        console.log(userInput)
+        writeToFile("README.md", generateMarkdown(userInput));
+    });
+};
 
 // Function call to initialize app
-//init();
+init();
