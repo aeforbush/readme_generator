@@ -130,15 +130,15 @@ const promptQuestions =
         name: 'email',
         message: 'Please provide your email',
     }
-]);
+])
+//.then()
 
 
-promptQuestions();
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeToFile(fileName, data, (err) => {
-        if (err);
-        throw err;
+function writeFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err)
+        throw new Error (err);
         console.log("Success! Info transfered to README.");
     });
 };
@@ -148,7 +148,7 @@ function init() {
     inquirer.prompt(promptQuestions)
     .then(function (userInput) {
         console.log(userInput)
-        writeToFile("README.md", generateMarkdown(userInput));
+        writeFile("README.md", generateMarkdown(userInput));
     });
 };
 

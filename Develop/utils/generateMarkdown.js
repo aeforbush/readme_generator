@@ -1,8 +1,8 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+const fs = require('fs');
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  
+
 [![license](https://img.shields.io/badge/license-${data.licensing}-success)](https://shields.io)
 
 
