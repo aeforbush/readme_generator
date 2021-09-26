@@ -7,7 +7,7 @@
 [![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
 
 ## Decription:
-readme
+Creates a professional README.md file
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -18,10 +18,10 @@ readme
 
 
 ## Installation
-clone
+Clone to local machine and use code editor
 
 ## Usage
-create
+Create a high-quality README.md file for your GitHub project
 
 ## License:
 * This application is covered under the MIT license.
