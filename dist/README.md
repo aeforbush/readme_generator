@@ -1,13 +1,13 @@
 
 
   
-# readme_generator
+# readme
 
-[![GitHub](https://img.shields.io/github/aeforbush/readme_generator)]
+[![GitHub](https://img.shields.io/github/aeforbush/readme)]
 [![license](https://img.shields.io/badge/license--success)](https://shields.io)
 
 ## Decription:
-Creates a high-quality README.md
+readme generator
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -18,19 +18,19 @@ Creates a high-quality README.md
 
 
 ## Installation
-Use code editor and clone to local machine
+clone
 
 ## Usage
-Create professional README
+create
 
 ## License:
 * This application is covered under the  license.
 
 ## Contributions
-NA
+ma
 
 ## Testing:
-N/A
+na
 
 ## Questions:
 * If you have any further questions please feel free to contact me at:
