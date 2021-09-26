@@ -146,7 +146,7 @@ function init() {
 
 // TODO: Create a function to write README file
 function writeFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => {
+    fs.writeFile('./dist/' + fileName, data, (err) => {
         if (err)
         throw new Error (err);
         console.log("Success! Info transfered to README.");

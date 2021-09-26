@@ -1,4 +1,4 @@
-const fs = require('fs');
+// const fs = require('fs');
 function generateMarkdown(data) {
 return `
 ![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})

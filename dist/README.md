@@ -1,7 +1,7 @@
 
-![GitHub](https://img.shields.io/github/license/aeforbush/readme-generator)
+![GitHub](https://img.shields.io/github/license/aeforbush/readme generator)
   
-# readme-generator
+# readme generator
 
 
 [![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
@@ -16,19 +16,19 @@
 - [Contact](#contact)
 
 ## Decription:
-lorem	
+flasjjdl
 
 ## Installation
-code editor and node.js
+code editor 
 
 ## Usage
-create a readme
+create readme
 
 ## License:
 * This application is covered under the MIT license.
 
 ## Contributions
-?
+yes
 
 ## Testing:
 undefined
@@ -36,5 +36,5 @@ undefined
 ## Contact:
 * If you have any further questions please feel free to contact me at:
  - GitHub: [undefined](https://github.com/undefined) 
- - Email: aeforbush@gmail.com
+ - Email: aeforbush
 
