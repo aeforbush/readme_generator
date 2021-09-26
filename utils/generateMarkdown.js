@@ -1,6 +1,6 @@
 // const fs = require('fs');
 function generateMarkdown(data) {
-return `
+    return `
 
   
 # ${data.title}
