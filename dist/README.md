@@ -21,7 +21,7 @@ Creates a high-quality README.md file
 Must clone to local machine and use code editor
 
 ## Usage
-Create a professional README.md file for GitHub project
+Create professional README.md file for GitHub projects
 
 ## License:
 * This application is covered under the MIT license.

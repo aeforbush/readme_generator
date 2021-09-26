@@ -5,7 +5,7 @@ function generateMarkdown(data) {
   
 # ${data.title}
 
-[![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})]
+[![GitHub](https://img.shields.io/github/${data.githubUsername}/${data.title})]
 [![license](https://img.shields.io/badge/license-${data.licensing}-success)](https://shields.io)
 
 ## Decription:
