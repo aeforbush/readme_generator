@@ -3,7 +3,7 @@
   
 # readme_generator
 
-[![GitHub](https://img.shields.io/github/license/aeforbush/readme_generator)]
+
 [![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
 
 ## Decription:
@@ -21,7 +21,7 @@ Creates a professional README.md file
 Clone to local machine and use code editor
 
 ## Usage
-Create a high-quality README.md file for your GitHub project
+Create a high-quality README.md file for GitHub project
 
 ## License:
 * This application is covered under the MIT license.
