@@ -1,13 +1,13 @@
 
 
   
-# readme
+# readme_generator
 
-[![GitHub](https://img.shields.io/github/aeforbush/readme)]
-[![license](https://img.shields.io/badge/license--success)](https://shields.io)
+[![GitHub](https://img.shields.io/github/license/aeforbush/readme_generator)]
+[![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
 
 ## Decription:
-readme generator
+readme
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -24,16 +24,16 @@ clone
 create
 
 ## License:
-* This application is covered under the  license.
+* This application is covered under the MIT license.
 
 ## Contributions
-ma
+n/a
 
 ## Testing:
-na
+n/a
 
 ## Questions:
 * If you have any further questions please feel free to contact me at:
  - GitHub: [aeforbush](https://github.com/aeforbush) 
- - Email: aeforbush
+ - Email: aeforbush@gmail.com
 
