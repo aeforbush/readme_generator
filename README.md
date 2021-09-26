@@ -33,7 +33,8 @@ This project is for anyone who would like to create a Professional README.md for
 * Testing will be done in the future.
 
 ## Video Tutorial
-* https://www.icloud.com/iclouddrive/066QQBvfQ4YLSfeDZF4Rsy7ow#README_Generator_video
+* https://www.icloud.com/iclouddrive/0OnGpMj87WTfKVpl1qkCBSXRQ#README_Generator_Tutorial
+
 
 ## Contact:
 * If you have any further questions please feel free to contact me at:
