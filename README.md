@@ -41,4 +41,5 @@ This project is for anyone who would like to create a Professional README.md for
  - Email: aeforbush@gmail.com
  - 
 ## Sample
+* ![Sample of README](https://user-images.githubusercontent.com/87487655/134825947-19682f9f-5328-4b1b-b179-ad21d2e82632.png)
 
