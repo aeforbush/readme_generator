@@ -1,10 +1,10 @@
 
-![GitHub](https://img.shields.io/github/license/aeforbush/readme generator)
+
   
-# readme generator
+# readme_generator
 
 
-[![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
+[![license](https://img.shields.io/badge/license-MIT,Mozilla-Public-success)](https://shields.io)
 
 
 ## Table of Contents 
@@ -16,25 +16,25 @@
 - [Contact](#contact)
 
 ## Decription:
-flasjjdl
+Creates a README from the server side using Node.js
 
 ## Installation
-code editor 
+Need a code editor
 
 ## Usage
-create readme
+Create a README
 
 ## License:
-* This application is covered under the MIT license.
+* This application is covered under the MIT,Mozilla-Public license.
 
 ## Contributions
-yes
+No
 
 ## Testing:
-undefined
+Not sure
 
 ## Contact:
 * If you have any further questions please feel free to contact me at:
- - GitHub: [undefined](https://github.com/undefined) 
- - Email: aeforbush
+ - GitHub: [aeforbush](https://github.com/aeforbush) 
+ - Email: aeforbush@gmail.com
 

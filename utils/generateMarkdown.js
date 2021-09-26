@@ -1,7 +1,7 @@
 // const fs = require('fs');
 function generateMarkdown(data) {
 return `
-![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})
+
   
 # ${data.title}
 
@@ -33,11 +33,11 @@ ${data.usage}
 ${data.contribution}
 
 ## Testing:
-${data.testing}
+${data.test}
 
 ## Contact:
 * If you have any further questions please feel free to contact me at:
- - GitHub: [${data.github}](https://github.com/${data.github}) 
+ - GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername}) 
  - Email: ${data.email}
 
 `;
@@ -45,6 +45,7 @@ ${data.testing}
 
 module.exports = generateMarkdown;
 
+// [![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})]
 
 /*// TODO: Create a function that returns the license link
 // If there is no license, return an empty string
