@@ -1,7 +1,7 @@
 
 
   
-# readme-generator
+# README Generator
 
 
 [![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
