@@ -4,28 +4,27 @@
 # readme_generator
 
 
-[![license](https://img.shields.io/badge/license-MIT,Mozilla-Public-success)](https://shields.io)
+[![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
 
+## Decription:
+This is an example of your project!
 
 ## Table of Contents 
-- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Testing](#test)
 - [Contact](#contact)
 
-## Decription:
-Dynamically create a readme with node.js
 
 ## Installation
-please use a code editor
+Code editor and node.js
 
 ## Usage
-create a readme
+create readme
 
 ## License:
-* This application is covered under the MIT,Mozilla-Public license.
+* This application is covered under the MIT license.
 
 ## Contributions
 no
