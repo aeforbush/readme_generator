@@ -3,11 +3,11 @@
   
 # readme_generator
 
-[![GitHub](https://img.shields.io/github/license/aeforbush/readme_generator)]
-[![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
+[![GitHub](https://img.shields.io/github/aeforbush/readme_generator)]
+[![license](https://img.shields.io/badge/license--success)](https://shields.io)
 
 ## Decription:
-Creates a high-quality README.md file 
+Creates a high-quality README.md
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -18,16 +18,16 @@ Creates a high-quality README.md file
 
 
 ## Installation
-Must clone to local machine and use code editor
+Use code editor and clone to local machine
 
 ## Usage
-Create professional README.md file for GitHub projects
+Create professional README
 
 ## License:
-* This application is covered under the MIT license.
+* This application is covered under the  license.
 
 ## Contributions
-N/A
+NA
 
 ## Testing:
 N/A
@@ -35,5 +35,5 @@ N/A
 ## Questions:
 * If you have any further questions please feel free to contact me at:
  - GitHub: [aeforbush](https://github.com/aeforbush) 
- - Email: aeforbush@gmail.com
+ - Email: aeforbush
 
