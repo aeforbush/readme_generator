@@ -8,17 +8,16 @@ return `
 
 [![license](https://img.shields.io/badge/license-${data.licensing}-success)](https://shields.io)
 
+## Decription:
+${data.description}
 
 ## Table of Contents 
-- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Testing](#test)
 - [Contact](#contact)
 
-## Decription:
-${data.description}
 
 ## Installation
 ${data.installation}

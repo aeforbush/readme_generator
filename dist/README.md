@@ -16,22 +16,22 @@
 - [Contact](#contact)
 
 ## Decription:
-Creates a README from the server side using Node.js
+Dynamically create a readme with node.js
 
 ## Installation
-Need a code editor
+please use a code editor
 
 ## Usage
-Create a README
+create a readme
 
 ## License:
 * This application is covered under the MIT,Mozilla-Public license.
 
 ## Contributions
-No
+no
 
 ## Testing:
-Not sure
+no
 
 ## Contact:
 * If you have any further questions please feel free to contact me at:
