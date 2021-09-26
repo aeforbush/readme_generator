@@ -7,7 +7,7 @@
 [![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
 
 ## Decription:
-example
+Create a professional README.md file
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -18,21 +18,21 @@ example
 
 
 ## Installation
-code editor
+Clone to local machine and use code editor
 
 ## Usage
-create readme
+To create a high-quality README.md file for your GitHub project
 
 ## License:
 * This application is covered under the MIT license.
 
 ## Contributions
-no
+Set in future
 
 ## Testing:
-no
+Set in future
 
-## Contact:
+## Questions:
 * If you have any further questions please feel free to contact me at:
  - GitHub: [aeforbush](https://github.com/aeforbush) 
  - Email: aeforbush@gmail.com
