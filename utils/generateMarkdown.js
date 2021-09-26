@@ -1,6 +1,9 @@
 const fs = require('fs');
 function generateMarkdown(data) {
-  return `# ${data.title}
+return `
+![GitHub](https://img.shields.io/github/license/${data.githubUsername}/${data.title})
+  
+# ${data.title}
 
 
 [![license](https://img.shields.io/badge/license-${data.licensing}-success)](https://shields.io)
@@ -24,7 +27,7 @@ ${data.installation}
 ${data.usage}
 
 ## License:
-${data.licensing}
+* This application is covered under the ${data.licensing} license.
 
 ## Contributions
 ${data.contribution}
@@ -33,6 +36,7 @@ ${data.contribution}
 ${data.testing}
 
 ## Contact:
+* If you have any further questions please feel free to contact me at:
  - GitHub: [${data.github}](https://github.com/${data.github}) 
  - Email: ${data.email}
 

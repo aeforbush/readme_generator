@@ -9,13 +9,13 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
-const promptQuestions = 
+const promptQuestions =
     ([
     // github username
     {
         type: 'input',
-        name: 'github',
-        message: 'What is your GitHub Username? (Required)',
+        name: 'githubUsername',
+        message: 'What is your GitHub Username?',
         validate: githubInput => {
             if (githubInput) {
                 return true;
@@ -29,7 +29,7 @@ const promptQuestions =
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project (Required)',
+        message: 'What is the title of your project',
         validate: titleInput => {
             if (titleInput) {
                 return true;
@@ -43,7 +43,7 @@ const promptQuestions =
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a description of the project (Required)',
+        message: 'Provide a description of the project',
         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
@@ -57,7 +57,7 @@ const promptQuestions =
     {
         type: 'input',
         name: 'installation',
-        message: 'Provide instruction on how to install your project. (Required)',
+        message: 'Provide instruction on how to install your project.',
         validate: installationInput => {
             if (installationInput) {
                 return true;
@@ -71,7 +71,7 @@ const promptQuestions =
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use this project? (Required)',
+        message: 'How do you use this project?',
         validate: usageInput => {
             if (usageInput) {
                 return true;
@@ -85,7 +85,7 @@ const promptQuestions =
     {
         type: 'input',
         name: 'contribution',
-        message: 'How should people contribute to this project? (Required)',
+        message: 'How should people contribute to this project?',
         validate: contributionInput => {
             if (contributionInput) {
                 return true;
@@ -99,7 +99,7 @@ const promptQuestions =
     {
         type: 'input',
         name: 'test',
-        message: 'How do you test this project? (Required)',
+        message: 'How do you test this project?',
         validate: testInput => {
             if (testInput) {
                 return true;
@@ -113,7 +113,7 @@ const promptQuestions =
     {
         type: 'checkbox',
         name: 'licensing',
-        message: 'Choose a license for your project. (Required)',
+        message: 'Choose a license for your project.',
         choices: ['Apache', 'MIT', 'Mozilla-Public', 'None'],
         validate: licensingInput => {
             if (licensingInput) {
@@ -131,7 +131,17 @@ const promptQuestions =
         message: 'Please provide your email',
     }
 ])
-//.then()
+
+
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(promptQuestions)
+    .then(function (userInput) {
+        console.log(userInput)
+        writeFile("README.md", generateMarkdown(userInput));
+    });
+};
+
 
 
 // TODO: Create a function to write README file
@@ -143,14 +153,6 @@ function writeFile(fileName, data) {
     });
 };
 
-// TODO: Create a function to initialize app
-function init() {
-    inquirer.prompt(promptQuestions)
-    .then(function (userInput) {
-        console.log(userInput)
-        writeFile("README.md", generateMarkdown(userInput));
-    });
-};
 
 // Function call to initialize app
 init();
