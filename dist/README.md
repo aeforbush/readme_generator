@@ -3,11 +3,11 @@
   
 # readme_generator
 
-
+[![GitHub](https://img.shields.io/github/license/aeforbush/readme_generator)]
 [![license](https://img.shields.io/badge/license-MIT-success)](https://shields.io)
 
 ## Decription:
-This is an example of your project!
+example
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -18,7 +18,7 @@ This is an example of your project!
 
 
 ## Installation
-Code editor and node.js
+code editor
 
 ## Usage
 create readme

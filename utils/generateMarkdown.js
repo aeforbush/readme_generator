@@ -34,7 +34,7 @@ ${data.contribution}
 ## Testing:
 ${data.test}
 
-## Contact:
+## Questions:
 * If you have any further questions please feel free to contact me at:
  - GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername}) 
  - Email: ${data.email}
